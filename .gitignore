@@ -4,3 +4,4 @@ data/.build-state.json
 .wrangler/
 .dev.vars
 .env
+cloudflare/wrangler.toml

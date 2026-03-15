@@ -2,6 +2,117 @@
   "track": [
     {
       "artist": {
+        "url": "https://www.last.fm/music/%E5%9D%82%E6%9C%AC%E9%BE%8D%E4%B8%80",
+        "name": "坂本龍一",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "mbid": ""
+      },
+      "mbid": "",
+      "name": "Merry Christmas Mr. Lawrence",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2f230878be193eb342aac37493199f1f.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2f230878be193eb342aac37493199f1f.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2f230878be193eb342aac37493199f1f.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2f230878be193eb342aac37493199f1f.jpg"
+        }
+      ],
+      "streamable": "0",
+      "album": {
+        "mbid": "30d72af1-fd32-4fd6-8d78-8d4fcc2c309c",
+        "#text": "1996"
+      },
+      "url": "https://www.last.fm/music/%E5%9D%82%E6%9C%AC%E9%BE%8D%E4%B8%80/_/Merry+Christmas+Mr.+Lawrence",
+      "@attr": {
+        "nowplaying": "true"
+      },
+      "loved": "0"
+    },
+    {
+      "artist": {
+        "url": "https://www.last.fm/music/+noredirect/Gorillaz%2FDe+La+Soul",
+        "name": "Gorillaz/De La Soul",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "mbid": ""
+      },
+      "date": {
+        "uts": "1773603990",
+        "#text": "15 Mar 2026, 19:46"
+      },
+      "mbid": "",
+      "name": "Feel Good Inc.",
+      "image": [
+        {
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/271483e955d2b255160f3361a7f5fb78.png",
+          "size": "small"
+        },
+        {
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/271483e955d2b255160f3361a7f5fb78.png",
+          "size": "medium"
+        },
+        {
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/271483e955d2b255160f3361a7f5fb78.png",
+          "size": "large"
+        },
+        {
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/271483e955d2b255160f3361a7f5fb78.png",
+          "size": "extralarge"
+        }
+      ],
+      "url": "https://www.last.fm/music/+noredirect/Gorillaz%2FDe+La+Soul/_/Feel+Good+Inc.",
+      "streamable": "0",
+      "album": {
+        "mbid": "0380808d-2211-4869-a287-cc94e0d18162",
+        "#text": "Demon Days"
+      },
+      "loved": "0"
+    },
+    {
+      "artist": {
         "url": "https://www.last.fm/music/Daft+Punk",
         "name": "Daft Punk",
         "image": [
@@ -24,8 +135,12 @@
         ],
         "mbid": ""
       },
+      "date": {
+        "uts": "1773603782",
+        "#text": "15 Mar 2026, 19:43"
+      },
       "mbid": "26487f05-78f4-4cc7-aa24-bc3607f392ea",
-      "name": "Harder, Better, Faster, Stronger",
+      "name": "Harder Better Faster Stronger",
       "image": [
         {
           "size": "small",
@@ -44,14 +159,67 @@
           "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/1340e9e1082cf0dc748583b7eefce6d5.jpg"
         }
       ],
+      "url": "https://www.last.fm/music/+noredirect/Daft+Punk/_/Harder+Better+Faster+Stronger",
       "streamable": "0",
       "album": {
         "mbid": "098060d4-ba3c-469d-88b0-08642261c7ab",
         "#text": "Discovery"
       },
-      "url": "https://www.last.fm/music/Daft+Punk/_/Harder,+Better,+Faster,+Stronger",
-      "@attr": {
-        "nowplaying": "true"
+      "loved": "0"
+    },
+    {
+      "artist": {
+        "url": "https://www.last.fm/music/Daft+Punk",
+        "name": "Daft Punk",
+        "image": [
+          {
+            "size": "small",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "medium",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "large",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          },
+          {
+            "size": "extralarge",
+            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          }
+        ],
+        "mbid": ""
+      },
+      "date": {
+        "uts": "1773603558",
+        "#text": "15 Mar 2026, 19:39"
+      },
+      "mbid": "26487f05-78f4-4cc7-aa24-bc3607f392ea",
+      "name": "Harder Better Faster Stronger",
+      "image": [
+        {
+          "size": "small",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/1340e9e1082cf0dc748583b7eefce6d5.jpg"
+        },
+        {
+          "size": "medium",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/1340e9e1082cf0dc748583b7eefce6d5.jpg"
+        },
+        {
+          "size": "large",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/1340e9e1082cf0dc748583b7eefce6d5.jpg"
+        },
+        {
+          "size": "extralarge",
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/1340e9e1082cf0dc748583b7eefce6d5.jpg"
+        }
+      ],
+      "url": "https://www.last.fm/music/+noredirect/Daft+Punk/_/Harder+Better+Faster+Stronger",
+      "streamable": "0",
+      "album": {
+        "mbid": "098060d4-ba3c-469d-88b0-08642261c7ab",
+        "#text": "Discovery"
       },
       "loved": "0"
     },
@@ -591,20 +759,20 @@
       "name": "Don't Fight The Music",
       "image": [
         {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "small"
         },
         {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "medium"
         },
         {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "large"
         },
         {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "extralarge"
         }
       ],
       "url": "https://www.last.fm/music/%E9%BB%92%E9%AD%94/_/Don%27t+Fight+The+Music",
@@ -647,20 +815,20 @@
       "name": "Don't Fight The Music",
       "image": [
         {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "small"
         },
         {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "medium"
         },
         {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "large"
         },
         {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "extralarge"
         }
       ],
       "url": "https://www.last.fm/music/%E9%BB%92%E9%AD%94/_/Don%27t+Fight+The+Music",
@@ -703,20 +871,20 @@
       "name": "Don't Fight The Music",
       "image": [
         {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "small"
         },
         {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "medium"
         },
         {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "large"
         },
         {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "extralarge"
         }
       ],
       "url": "https://www.last.fm/music/%E9%BB%92%E9%AD%94/_/Don%27t+Fight+The+Music",
@@ -759,20 +927,20 @@
       "name": "Don't Fight The Music",
       "image": [
         {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "small"
         },
         {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "medium"
         },
         {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "large"
         },
         {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "extralarge"
         }
       ],
       "url": "https://www.last.fm/music/%E9%BB%92%E9%AD%94/_/Don%27t+Fight+The+Music",
@@ -815,20 +983,20 @@
       "name": "Don't Fight The Music",
       "image": [
         {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "small"
         },
         {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "medium"
         },
         {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "large"
         },
         {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/888ebc11b6a2e15a4e43e120411c4e65.png",
+          "size": "extralarge"
         }
       ],
       "url": "https://www.last.fm/music/%E9%BB%92%E9%AD%94/_/Don%27t+Fight+The+Music",
@@ -1767,20 +1935,20 @@
       "name": "大石碎胸口",
       "image": [
         {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/d2814bce46f4ccf828a506f267ce7be4.png",
+          "size": "small"
         },
         {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/d2814bce46f4ccf828a506f267ce7be4.png",
+          "size": "medium"
         },
         {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/d2814bce46f4ccf828a506f267ce7be4.png",
+          "size": "large"
         },
         {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
+          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/d2814bce46f4ccf828a506f267ce7be4.png",
+          "size": "extralarge"
         }
       ],
       "url": "https://www.last.fm/music/%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97/_/%E5%A4%A7%E7%9F%B3%E7%A2%8E%E8%83%B8%E5%8F%A3",
@@ -2686,174 +2854,6 @@
         "#text": "AKKERA-COUNTRY-BOY"
       },
       "loved": "0"
-    },
-    {
-      "artist": {
-        "url": "https://www.last.fm/music/MYUKKE.",
-        "name": "MYUKKE.",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "mbid": ""
-      },
-      "date": {
-        "uts": "1773585140",
-        "#text": "15 Mar 2026, 14:32"
-      },
-      "mbid": "",
-      "name": "AKKERA-COUNTRY-BOY",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        }
-      ],
-      "url": "https://www.last.fm/music/MYUKKE./_/AKKERA-COUNTRY-BOY",
-      "streamable": "0",
-      "album": {
-        "mbid": "",
-        "#text": "AKKERA-COUNTRY-BOY"
-      },
-      "loved": "0"
-    },
-    {
-      "artist": {
-        "url": "https://www.last.fm/music/MYUKKE.",
-        "name": "MYUKKE.",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "mbid": ""
-      },
-      "date": {
-        "uts": "1773584908",
-        "#text": "15 Mar 2026, 14:28"
-      },
-      "mbid": "",
-      "name": "AKKERA-COUNTRY-BOY",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        }
-      ],
-      "url": "https://www.last.fm/music/MYUKKE./_/AKKERA-COUNTRY-BOY",
-      "streamable": "0",
-      "album": {
-        "mbid": "",
-        "#text": "AKKERA-COUNTRY-BOY"
-      },
-      "loved": "0"
-    },
-    {
-      "artist": {
-        "url": "https://www.last.fm/music/MYUKKE.",
-        "name": "MYUKKE.",
-        "image": [
-          {
-            "size": "small",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "medium",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "large",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png"
-          },
-          {
-            "size": "extralarge",
-            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png"
-          }
-        ],
-        "mbid": ""
-      },
-      "date": {
-        "uts": "1773584789",
-        "#text": "15 Mar 2026, 14:26"
-      },
-      "mbid": "",
-      "name": "AKKERA-COUNTRY-BOY",
-      "image": [
-        {
-          "size": "small",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/34s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "medium",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/64s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "large",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/174s/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        },
-        {
-          "size": "extralarge",
-          "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/d3d8d0d69e7d3c6c4232d7c3e97a0788.jpg"
-        }
-      ],
-      "url": "https://www.last.fm/music/MYUKKE./_/AKKERA-COUNTRY-BOY",
-      "streamable": "0",
-      "album": {
-        "mbid": "",
-        "#text": "AKKERA-COUNTRY-BOY"
-      },
-      "loved": "0"
     }
   ],
   "@attr": {
@@ -2861,6 +2861,6 @@
     "totalPages": "201",
     "page": "1",
     "perPage": "50",
-    "total": "10015"
+    "total": "10018"
   }
 }

@@ -7,6 +7,7 @@ const ROOT = process.cwd();
 const DATA_DIR = path.join(ROOT, 'data');
 const RECENT_FILE = path.join(DATA_DIR, 'recent.json');
 const META_FILE = path.join(DATA_DIR, 'meta.json');
+const PLACEHOLDER_IMAGE = '2a96cbd8b46e442fc41c2b86b821562f';
 
 async function readConfig() {
   if (process.env.LASTFM_API_KEY && process.env.LASTFM_USERNAME) {
@@ -22,7 +23,7 @@ async function readConfig() {
 
 async function fetchRecent(config, limit = 50) {
   const data = await apiGet(config, 'user.getrecenttracks', { limit, extended: 1 });
-  return data.recenttracks || { track: [] };
+  return enrichRecentArtwork(config, data.recenttracks || { track: [] });
 }
 
 async function apiGet(config, method, extra = {}) {
@@ -46,6 +47,42 @@ async function writeRecent(recent) {
   await fs.writeFile(RECENT_FILE, JSON.stringify(recent, null, 2), 'utf8');
 }
 
+function hasUsableImage(images) {
+  if (!Array.isArray(images)) return false;
+  return images.some(image => image?.['#text'] && !image['#text'].includes(PLACEHOLDER_IMAGE));
+}
+
+function normalizeImageArray(images) {
+  return Array.isArray(images) ? images : [];
+}
+
+async function fetchTrackImage(config, artist, track) {
+  try {
+    const data = await apiGet(config, 'track.getInfo', { artist, track, autocorrect: 1 });
+    return normalizeImageArray(data.track?.album?.image);
+  } catch {
+    return [];
+  }
+}
+
+async function enrichRecentArtwork(config, recenttracks) {
+  const tracks = Array.isArray(recenttracks.track) ? recenttracks.track : [];
+  const imageCache = new Map();
+  await Promise.all(tracks.map(async track => {
+    if (hasUsableImage(track.image)) return;
+    const artist = track.artist?.name || track.artist?.['#text'] || '';
+    const key = `${artist}::${track.name}`;
+    if (!imageCache.has(key)) {
+      imageCache.set(key, fetchTrackImage(config, artist, track.name));
+    }
+    const images = await imageCache.get(key);
+    if (hasUsableImage(images)) {
+      track.image = images;
+    }
+  }));
+  return recenttracks;
+}
+
 async function readMeta() {
   try {
     return JSON.parse(await fs.readFile(META_FILE, 'utf8'));
@@ -63,6 +100,7 @@ async function updateMeta(config) {
   meta.user = userInfo.user || meta.user || null;
   meta.liveUpdatedAt = new Date().toISOString();
   meta.lovedTrackCount = +(lovedInfo.lovedtracks?.['@attr']?.total || meta.lovedTrackCount || 0);
+  meta.trackCount = +(userInfo.user?.playcount || meta.trackCount || 0);
   await fs.writeFile(META_FILE, JSON.stringify(meta, null, 2), 'utf8');
   return meta;
 }

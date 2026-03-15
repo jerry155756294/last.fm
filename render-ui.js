@@ -205,20 +205,20 @@ var RenderUI = window.RenderUI = (() => {
     }).join('');
   }
 
-  function renderStats(u) {
+  function renderStats(u, meta = {}) {
     const el = $('stats-cards');
     if (!el || !u) return;
-    const sc = +u.playcount || 0;
+    const sc = +(meta.trackCount || u.playcount || 0);
     const ar = +u.artist_count || 0;
     const al = +u.album_count || 0;
     const tk = +u.track_count || 0;
-    const reg = u.registered?.unixtime ? new Date(+u.registered.unixtime * 1000).toLocaleDateString('zh-TW') : '—';
+    const loved = +(meta.lovedTrackCount || 0);
     el.innerHTML = `
       <div class="stat-card"><span class="stat-value">${fmtNum(sc)}</span><span class="stat-label">Scrobbles</span></div>
       <div class="stat-card"><span class="stat-value">${fmtNum(ar)}</span><span class="stat-label">藝人</span></div>
+      <div class="stat-card"><span class="stat-value">${fmtNum(loved)}</span><span class="stat-label">Loved Tracks</span></div>
       <div class="stat-card"><span class="stat-value">${fmtNum(al)}</span><span class="stat-label">專輯</span></div>
-      <div class="stat-card"><span class="stat-value">${fmtNum(tk)}</span><span class="stat-label">曲目</span></div>
-      <div class="stat-card"><span class="stat-value stat-value-sm">${reg}</span><span class="stat-label">加入日期</span></div>`;
+      <div class="stat-card"><span class="stat-value">${fmtNum(tk)}</span><span class="stat-label">曲目</span></div>`;
 
     const nameEl = $('username-display');
     if (nameEl) {
@@ -558,23 +558,25 @@ var RenderUI = window.RenderUI = (() => {
   async function updateDatasetInfo(fresh = false) {
     const meta = await window.LastFmAPI.getMeta(fresh);
     const countEl = $('cache-count');
-    if (countEl) countEl.textContent = `${fmtNum(meta.trackCount || 0)} 筆資料`;
+    if (countEl) countEl.textContent = `${fmtNum(meta.trackCount || meta.user?.playcount || 0)} Scrobbles`;
     const updatedEl = $('data-updated');
     if (updatedEl) {
-      updatedEl.textContent = meta.generatedAt
-        ? `更新於 ${new Date(meta.generatedAt).toLocaleString('zh-TW')}`
+      updatedEl.textContent = (meta.liveUpdatedAt || meta.generatedAt)
+        ? `更新於 ${new Date(meta.liveUpdatedAt || meta.generatedAt).toLocaleString('zh-TW')}`
         : '尚未建立資料';
     }
     datasetVersion = meta.generatedAt || '';
+    return meta;
   }
 
   async function renderAll(fresh = false) {
-    const [userInfo, recent, stats] = await Promise.all([
+    const [meta, userInfo, recent, stats] = await Promise.all([
+      window.LastFmAPI.getMeta(fresh),
       window.LastFmAPI.getUserInfo(fresh),
       window.LastFmAPI.getRecentTracks(50, fresh),
       window.LastFmAPI.getStats(fresh),
     ]);
-    renderStats(userInfo);
+    renderStats(userInfo, meta);
     await renderNowPlaying(recent);
     renderRecent(recent);
     await refreshTop(fresh);
@@ -598,11 +600,12 @@ var RenderUI = window.RenderUI = (() => {
     setRefreshBusy(true);
     if (manual) setLiveStatus('正在向即時來源重新抓取...');
     try {
+      const meta = await window.LastFmAPI.getMeta(true);
       const recent = await window.LastFmAPI.getLiveRecentTracks(50, true);
       const userInfo = await window.LastFmAPI.getUserInfo(true);
       await renderNowPlaying(recent);
       renderRecent(recent);
-      renderStats(userInfo);
+      renderStats(userInfo, meta);
       setLiveStatus(`最近播放更新於 ${new Date().toLocaleTimeString('zh-TW')}`);
       await updateDatasetInfo(true);
     } catch (e) {

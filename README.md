@@ -60,7 +60,7 @@ switch-cloud.cmd
 
 總結：
 
-- `local` = 前端直接用你的 `api-key.js` 打 Last.fm，即時但只適合本機
+- `local` = Node 用你的 `api-key.js` 同步 `recent.json` / `meta.json`，前端只讀 JSON
 - `cloud` = 前端只打 Cloudflare Worker，前後端分離，API key 不暴露
 
 ## 主要檔案

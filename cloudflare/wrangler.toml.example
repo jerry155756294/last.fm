@@ -1,6 +1,6 @@
 name = "lastfm-dashboard-recent"
 main = "worker.js"
-compatibility_date = "2026-03-16"
+compatibility_date = "2026-03-15"
 
 [observability]
 enabled = true

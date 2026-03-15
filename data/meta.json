@@ -2,7 +2,7 @@
   "generatedAt": "2026-03-15T18:27:24.453Z",
   "username": "jerry155756294",
   "chunkDays": 15,
-  "trackCount": 9995,
+  "trackCount": 10018,
   "firstScrobbleAt": 1764478341,
   "lastScrobbleAt": 1773599133,
   "user": {
@@ -11,7 +11,7 @@
     "subscriber": "0",
     "realname": "",
     "bootstrap": "0",
-    "playcount": "10015",
+    "playcount": "10018",
     "artist_count": "476",
     "playlists": "0",
     "track_count": "823",
@@ -87,6 +87,6 @@
       "count": 1352
     }
   ],
-  "liveUpdatedAt": "2026-03-15T19:38:43.940Z",
+  "liveUpdatedAt": "2026-03-15T19:54:58.765Z",
   "lovedTrackCount": 2
 }

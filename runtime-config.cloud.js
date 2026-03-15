@@ -1,4 +1,4 @@
 window.DASHBOARD_CONFIG = {
   mode: 'cloud',
-  recentApiBase: 'https://your-worker.your-subdomain.workers.dev',
+  recentApiBase: 'https://lastfm-dashboard-recent.a155750130.workers.dev',
 };
