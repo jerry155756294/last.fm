@@ -2,6 +2,8 @@
 
 改為讀取本地 `data/` 分段 JSON，不再把歷史資料存進瀏覽器 IndexedDB。
 
+線上版本：`https://jerry155756294.github.io/last.fm/`
+
 ## 新架構
 
 - 前端只讀本地 JSON：`data/meta.json`、`data/recent.json`、`data/stats.json`、`data/top/*.json`、`data/chunks/*.json`
