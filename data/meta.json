@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-03-15T18:27:24.453Z",
+  "username": "jerry155756294",
+  "chunkDays": 15,
+  "trackCount": 9995,
+  "firstScrobbleAt": 1764478341,
+  "lastScrobbleAt": 1773599133,
+  "user": {
+    "name": "jerry155756294",
+    "age": "0",
+    "subscriber": "0",
+    "realname": "",
+    "bootstrap": "0",
+    "playcount": "10015",
+    "artist_count": "476",
+    "playlists": "0",
+    "track_count": "823",
+    "album_count": "642",
+    "image": [
+      {
+        "size": "small",
+        "#text": "https://lastfm.freetls.fastly.net/i/u/34s/118453ba469dd2f45d794641da575c11.png"
+      },
+      {
+        "size": "medium",
+        "#text": "https://lastfm.freetls.fastly.net/i/u/64s/118453ba469dd2f45d794641da575c11.png"
+      },
+      {
+        "size": "large",
+        "#text": "https://lastfm.freetls.fastly.net/i/u/174s/118453ba469dd2f45d794641da575c11.png"
+      },
+      {
+        "size": "extralarge",
+        "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/118453ba469dd2f45d794641da575c11.png"
+      }
+    ],
+    "registered": {
+      "unixtime": "1763884921",
+      "#text": 1763884921
+    },
+    "country": "Taiwan",
+    "gender": "n",
+    "url": "https://www.last.fm/user/jerry155756294",
+    "type": "user"
+  },
+  "chunks": [
+    {
+      "file": "scrobbles-2025-11-30_2025-12-14.json",
+      "startDate": "2025-11-30",
+      "endDate": "2025-12-14",
+      "count": 298
+    },
+    {
+      "file": "scrobbles-2025-12-18_2026-01-01.json",
+      "startDate": "2025-12-18",
+      "endDate": "2026-01-01",
+      "count": 987
+    },
+    {
+      "file": "scrobbles-2026-01-02_2026-01-16.json",
+      "startDate": "2026-01-02",
+      "endDate": "2026-01-16",
+      "count": 1191
+    },
+    {
+      "file": "scrobbles-2026-01-17_2026-01-31.json",
+      "startDate": "2026-01-17",
+      "endDate": "2026-01-31",
+      "count": 1291
+    },
+    {
+      "file": "scrobbles-2026-02-01_2026-02-15.json",
+      "startDate": "2026-02-01",
+      "endDate": "2026-02-15",
+      "count": 2738
+    },
+    {
+      "file": "scrobbles-2026-02-16_2026-03-02.json",
+      "startDate": "2026-02-16",
+      "endDate": "2026-03-02",
+      "count": 2138
+    },
+    {
+      "file": "scrobbles-2026-03-03_2026-03-17.json",
+      "startDate": "2026-03-03",
+      "endDate": "2026-03-17",
+      "count": 1352
+    }
+  ],
+  "liveUpdatedAt": "2026-03-15T19:38:43.940Z",
+  "lovedTrackCount": 2
+}

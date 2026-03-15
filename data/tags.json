@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ambient",
+    "count": 200
+  },
+  {
+    "name": "bandori",
+    "count": 148
+  },
+  {
+    "name": "electronic",
+    "count": 127
+  },
+  {
+    "name": "j-pop",
+    "count": 100
+  },
+  {
+    "name": "jpop",
+    "count": 100
+  },
+  {
+    "name": "dub techno",
+    "count": 100
+  },
+  {
+    "name": "hardcore",
+    "count": 100
+  },
+  {
+    "name": "dubstep",
+    "count": 100
+  },
+  {
+    "name": "australian",
+    "count": 100
+  },
+  {
+    "name": "japanese",
+    "count": 73
+  },
+  {
+    "name": "vtuber",
+    "count": 66
+  },
+  {
+    "name": "speedcore",
+    "count": 66
+  },
+  {
+    "name": "all",
+    "count": 66
+  },
+  {
+    "name": "impressionism",
+    "count": 14
+  }
+]

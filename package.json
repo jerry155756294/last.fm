@@ -1,0 +1,13 @@
+{
+  "name": "lastfm-dashboard",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "sync:recent": "node scripts/sync-recent.mjs",
+    "sync:live": "node scripts/live-sync.mjs",
+    "serve": "python -m http.server 8000",
+    "cf:deploy": "npx wrangler deploy --config cloudflare/wrangler.toml",
+    "cf:secret:key": "npx wrangler secret put LASTFM_API_KEY --config cloudflare/wrangler.toml",
+    "cf:secret:user": "npx wrangler secret put LASTFM_USERNAME --config cloudflare/wrangler.toml"
+  }
+}
