@@ -1,8 +1,8 @@
 # Scrobble Dashboard — Last.fm 個人音樂儀表板
 
-改為讀取本地 `data/` 分段 JSON，不再把歷史資料存進瀏覽器 IndexedDB。
+讀取本地 `data/` 分段 JSON，不再把歷史資料存進瀏覽器 IndexedDB。
 
-線上版本：`https://jerry155756294.github.io/last.fm/`
+[線上版本](https://jerry155756294.github.io/last.fm/)
 
 ## 新架構
 
