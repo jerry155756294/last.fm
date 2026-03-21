@@ -3,7 +3,8 @@ import path from 'node:path';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
-const ROOT = process.cwd();
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(SCRIPT_DIR, '..');
 const DATA_DIR = path.join(ROOT, 'data');
 const RECENT_FILE = path.join(DATA_DIR, 'recent.json');
 const META_FILE = path.join(DATA_DIR, 'meta.json');
